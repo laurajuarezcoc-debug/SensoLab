@@ -45,7 +45,7 @@ EXAMPLE_LABELS = {
 }
 LEVEL_UI = {ERROR: st.error, WARNING: st.warning, INFO: st.info}
 
-st.set_page_config(page_title="SensoLab · Análisis sensorial", page_icon=":material/lab_panel", layout="wide")
+st.set_page_config(page_title="SensoLab · Análisis sensorial", page_icon=":material/lab_panel:", layout="wide")
 st.markdown("""
 <style>
 .block-container {padding-top: 2rem; max-width: 1200px;}
